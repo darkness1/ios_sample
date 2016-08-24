@@ -92,7 +92,9 @@ typedef enum opr Operator;
     self.myLabel.text = [NSString stringWithFormat:@"%d",currentValue];
 
 }
-
+- (IBAction)unwind:(UIStoryboardSegue *)sender{
+    
+}
 - (IBAction)clear:(id)sender {
         self.myLabel.text =@"0";
         currentValue = 0;
